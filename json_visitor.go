@@ -2,8 +2,9 @@ package raymond
 
 import (
 	"encoding/json"
-	"github.com/mailgun/raymond/v2/ast"
 	"strings"
+
+	"github.com/richardbizik/raymond/v2/ast"
 )
 
 type list []interface{}

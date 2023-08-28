@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mailgun/raymond/v2"
+	"github.com/richardbizik/raymond/v2"
 )
 
 //
@@ -94,10 +94,9 @@ func detectDataHelper(options *raymond.Options) string {
 	return ""
 }
 
-//
 // Those tests come from:
-//   https://github.com/wycats/handlebars.js/blob/master/spec/helper.js
 //
+//	https://github.com/wycats/handlebars.js/blob/master/spec/helper.js
 var helpersTests = []Test{
 	{
 		"helper with complex lookup",

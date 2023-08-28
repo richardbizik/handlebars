@@ -1,7 +1,7 @@
 package raymond
 
 import (
-	"io/ioutil"
+	"os"
 	"path"
 	"regexp"
 	"strings"
@@ -58,7 +58,7 @@ func testsFromMustacheFile(fileName string) []Test {
 	result := []Test{}
 
 	// These files are pulled in from https://github.com/mustache/spec/tree/83b0721610a4e11832e83df19c73ace3289972b9
-	fileData, err := ioutil.ReadFile(path.Join("mustache", "specs", fileName))
+	fileData, err := os.ReadFile(path.Join("mustache", "specs", fileName))
 	if err != nil {
 		panic(err)
 	}
@@ -116,7 +116,7 @@ func haveAltDelimiter(test mustacheTest) bool {
 func mustacheTestFiles() []string {
 	var result []string
 
-	files, err := ioutil.ReadDir(path.Join("mustache", "specs"))
+	files, err := os.ReadDir(path.Join("mustache", "specs"))
 	if err != nil {
 		panic(err)
 	}

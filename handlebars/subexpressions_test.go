@@ -3,13 +3,12 @@ package handlebars
 import (
 	"testing"
 
-	"github.com/mailgun/raymond/v2"
+	"github.com/richardbizik/raymond/v2"
 )
 
-//
 // Those tests come from:
-//   https://github.com/wycats/handlebars.js/blob/master/spec/subexpression.js
 //
+//	https://github.com/wycats/handlebars.js/blob/master/spec/subexpression.js
 var subexpressionsTests = []Test{
 	{
 		"arg-less helper",

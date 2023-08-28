@@ -3,13 +3,12 @@ package handlebars
 import (
 	"testing"
 
-	"github.com/mailgun/raymond/v2"
+	"github.com/richardbizik/raymond/v2"
 )
 
-//
 // Those tests come from:
-//   https://github.com/wycats/handlebars.js/blob/master/spec/data.js
 //
+//	https://github.com/wycats/handlebars.js/blob/master/spec/data.js
 var dataTests = []Test{
 	{
 		"passing in data to a compiled function that expects data - works with helpers",
