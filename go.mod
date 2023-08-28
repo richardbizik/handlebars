@@ -1,4 +1,4 @@
-module github.com/richardbizik/raymond
+module github.com/richardbizik/handlebars
 
 go 1.16
 

@@ -1,4 +1,4 @@
-package raymond
+package handlebars
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/richardbizik/raymond/v2/ast"
+	"github.com/richardbizik/handlebars/ast"
 )
 
 var (

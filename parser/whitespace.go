@@ -3,7 +3,7 @@ package parser
 import (
 	"regexp"
 
-	"github.com/richardbizik/raymond/v2/ast"
+	"github.com/richardbizik/handlebars/ast"
 )
 
 // whitespaceVisitor walks through the AST to perform whitespace control

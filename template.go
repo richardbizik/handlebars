@@ -1,4 +1,4 @@
-package raymond
+package handlebars
 
 import (
 	"fmt"
@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/richardbizik/raymond/v2/ast"
-	"github.com/richardbizik/raymond/v2/parser"
+	"github.com/richardbizik/handlebars/ast"
+	"github.com/richardbizik/handlebars/parser"
 )
 
 // Template represents a handlebars template.

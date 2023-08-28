@@ -1,5 +1,5 @@
 // Package raymond provides handlebars evaluation
-package raymond
+package handlebars
 
 import "github.com/sirupsen/logrus"
 

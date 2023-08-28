@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/richardbizik/raymond/v2/ast"
-	"github.com/richardbizik/raymond/v2/lexer"
+	"github.com/richardbizik/handlebars/ast"
+	"github.com/richardbizik/handlebars/lexer"
 )
 
 // References:

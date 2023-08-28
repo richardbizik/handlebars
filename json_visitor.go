@@ -1,10 +1,10 @@
-package raymond
+package handlebars
 
 import (
 	"encoding/json"
 	"strings"
 
-	"github.com/richardbizik/raymond/v2/ast"
+	"github.com/richardbizik/handlebars/ast"
 )
 
 type list []interface{}

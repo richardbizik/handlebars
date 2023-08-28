@@ -1,9 +1,10 @@
-package raymond
+package handlebars
 
 import (
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func TestJSONVisitor(t *testing.T) {
